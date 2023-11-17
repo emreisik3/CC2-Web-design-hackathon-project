@@ -1,0 +1,111 @@
+img {
+  width: 80px;
+  height: 50px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #f5f2e5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #232f3e;
+}
+
+nav {
+  background-color: #ff9900;
+}
+
+p {
+  font-family: 'Times New Romman';
+
+}
+
+.correct {
+
+  color: green;
+
+}
+
+.wrong {
+
+  color: red;
+
+}
+
+
+#menu {
+  height: 100%;
+  /* display: none; */
+  float: right;
+  background-color: #232F3E;
+  color: #131A22;
+  font-size: 1.5em;
+  position: fixed;
+  width: 0em;
+  right: 0em;
+  /* margin-top: 120px; */
+  /* transform: translateX(-25px); */
+  transition: transform 250ms ease-in-out;
+  background: linear-gradient(180deg, #37475A 50%, #FEBD69 100%);
+
+}
+
+#menulist {
+  list-style: none;
+  color: #ff9900;
+  -webkit-text-stroke-color: #37475A;
+  -webkit-text-stroke-width: 0.5px;
+  margin: 0;
+  padding: 0;
+}
+
+#menulist li {
+  list-style: none;
+  color: #fff;
+  font-weight: bold;
+  /* padding: 20px; */
+  cursor: pointer;
+  border-bottom: 5px solid rgba(255, 255, 255, 10);
+}
+
+#hamburgerbutton {
+  color: white;
+  float: right;
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 25px;
+  max-height: 100%;
+  background-color: #ff9900;
+  border-radius: 20px;
+  width: 4rem;
+  text-align: center;
+}
+
+#hamburgerbutton:hover {
+  color: #37475A;
+}
+
+#banner {
+  color: white;
+  background-image: "static/png/bannerbackground.png";
+  width: 100%;
+  background-size: 100%;
+}
+

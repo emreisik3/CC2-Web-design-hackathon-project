@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<!-- Zach Santangelo  -->
+<!-- AWS StriDE beta cadre -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Group 2</title>
+  <link href="zach.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header class="header" id="header">
+    <nav id="navbar">
+      <a href="index.html"><img src="../static/png/AWSLOGO.png" alt="AWSlogo" id="AWSlogo"></a>
+      <!-- <input type="checkbox" class="hamburgerCheckBox" id="hamburgerCheckbox" onclick="hamburgerMenu()">
+      <label for="hamburgerCheckbox" class="hamburgerCheckBox" id="hamburgerCheckbox"> -->
+      <a href="javascript:void(0);" class="hamburgerlink" onclick="hamburgerMenu()">
+        <div id="hamburgerbutton">
+          <i class="hamburgerbuttontext">MENU</i>
+        </div>
+      </a>
+      <!-- </label> -->
+    </nav>
+  </header>
+  <main>
+    <div id="menu">
+      <div>
+        <ul id="menulist">
+          <li>
+            <a class="hoverhighlight" href="../emre/emre.html">
+              <h3>Containers</h3>
+              <h6>AWS container services make it easier to manage your underlying infrastructure by running your
+                containers in the most secure, reliable and scalable environment.</h6>
+            </a>
+          </li>
+          <li>
+            <a class="hoverhighlight" href="../mahamad/mahamad.html">
+              <h3>RDS</h3>
+              <h6>Support growing apps with high availability, throughput, and storage scalability.</h6>
+            </a>
+          </li>
+          <li>
+            <a class="hoverhighlight" href="../kaunad/kaunad.html">
+              <h3>ETL</h3>
+              <h6>Address specific business intelligence needs
+                through data analytics (such as predicting the outcome of business decisions, generating reports and
+                dashboards,
+                reducing operational inefficiency, and more).</h6>
+            </a>
+          </li>
+          <li>
+            <a class="hoverhighlight" href="../santzach/santzach.html">
+              <h3>EMR</h3>
+              <h6>Process petabye and streaming big data applications that scale on open source frameworks with the most
+                customizable cluster architecture in the world.</h6>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- <img src="static/png/bannerbackground.png" alt="banner" id="banner" class="banner"> -->
+    <div id="banner">
+      <h1 class="title">EMR</h1>
+      <p class="description">EMR Knowledge base</p>
+    </div>
+
+    <section id="questions" class="last animate 5">
+      <form class="grid 8" id="quiz-form">
+        <div id="onecolumn">
+          <label for="Question 1">If your EMR cluster that has nodes with 16GB of RAM each needs to be able to run 5
+            Spark executors with 10GB of memory each, how many nodes will you need?</label><br>
+          <p id="A1"></p>
+          <input type="text" id="Q1" name="Q1"><br>
+        </div>
+        <div id="onecolumn">
+          <label for="Question 2">What is the difference between RDS and EC2?</label><br>
+          <p id="A2"></p>
+          <input type="text" id="Q2" name="Q2">
+        </div>
+        <div id="onecolumn">
+          <label for="Question 3">What is something that Popular ETL services (Glue, Athena, MWAA) on AWS Platform all
+            have in common?</label><br>
+          <p id="A3"></p>
+          <input type="text" id="Q3" name="Q3">
+        </div>
+        <div id="onecolumn">
+          <label for="Question 4">Can you explain the architecture of Amazon Elastic Container Service (ECS) and the
+            various components involved?</label><br>
+          <p id="A4"></p>
+          <input type="text" id="Q4" name="Q4">
+        </div>
+        <div id="onecolumn">
+          <label for="Question 5">In EMR, what are the two possible configurations for the primary node
+            group?</label><br>
+          <p id="A5"></p>
+          <input type="text" id="Q5" name="Q5">
+        </div>
+        <div id="onecolumn">
+          <label for="Question 6">What is a DB Instance in RDS?</label><br>
+          <p id="A6"></p>
+          <input type="text" id="Q6" name="Q6">
+        </div>
+        <div id="onecolumn">
+          <label for="Question 7">True/False AWS Glue Data Catalog stores the underlying data so you not need to use an
+            alternative storage service like AWS S3.</label><br>
+          <p id="A7"></p>
+          <input type="text" id="Q7" name="Q7">
+        </div>
+        <div id="onecolumn">
+          <label for="Question 8">What are the two launch types of ECS?</label><br>
+          <p id="A8"></p>
+          <input type="text" id="Q8" name="Q8">
+        </div>
+        <button type="button" class="hoverhighlight" id="submit" onclick="submitForm()">Submit answers</button>
+      </form>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div id="footeritem">
+      This site was created on Replit by:
+    </div>
+    <div id="footeritem">
+      <a href="https://replit.com/@santzach">Zach Santangelo</a>
+    </div>
+    <div id="footeritem">
+      <a href="https://replit.com/@emreisik">Emre Isiktekiner</a>
+    </div>
+    <div id="footeritem">
+      <a href="https://replit.com/@kaunad">Kaushik Nadimpalli</a>
+    </div>
+    <div id="footeritem">
+      <a href="https://replit.com/@sheikhsm">Mahamad Sheikh</a>
+    </div>
+  </footer>
+  <script type="text/javascript" src="zach.js"></script>
+  <!-- <script type="module" src="script.js"></script> <DOES NOT WORK because a file of just function without import or exports. https://stackoverflow.com/a/39652842 -->
+
+  <!--
+    This script places a badge on your repl's full-browser view back to your repl's cover
+    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+    teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="yellow" position="bottom-right"></script>
+</body>
+
+</html>

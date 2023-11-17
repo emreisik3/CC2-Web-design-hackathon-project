@@ -1,0 +1,220 @@
+.header {
+  background-color: #232F3E;
+  margin: 0;
+  max-width: 100%;
+  width: 100%;
+  position: fixed;
+  max-height: 80px;
+  height: 80px;
+}
+
+nav {
+  text-align: center;
+  background-color: orange;
+  color: red;
+}
+
+#navbar>a>#AWSlogo {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 2%;
+  z-index: -1;
+  border-radius: 25px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+img.aws {
+  width: 50px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.pictures {
+  width: 50px;
+  height: 50px;
+}
+
+body {
+  background-color: #f7ebd4;
+}
+
+h1 {
+  text-align: center;
+  color: orange;
+  display: inline-block;
+  margin-left: 1000px;
+}
+
+h2 {
+  text-align: center;
+  color: darkblue;
+}
+
+h3 {
+  text-align: center;
+  font-size: larger;
+}
+
+h4 {
+  text-align: center;
+  font-size: larger;
+}
+
+div {
+  text-align: center;
+}
+
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: darkblue;
+  text-align: center;
+  font-size: larger;
+}
+
+ol li {
+  list-style-type: none;
+  color: blue;
+}
+
+#video {
+  background-color: aquablue;
+}
+
+#servicetitle {
+  color: darkblue;
+  text-align: center;
+  background-color: orange;
+}
+
+#banner {
+  color: lightgrey;
+  background-image: url(static/png/bannerbackground.png);
+  width: 100%;
+  background-size: 100%;
+}
+
+#menu {
+  height: 100%;
+  /* display: none; */
+  float: right;
+  background-color: #232F3E;
+  color: #131A22;
+  font-size: 1.5em;
+  position: fixed;
+  width: 0em;
+  right: 0em;
+  margin-top: 120px;
+  /* transform: translateX(-25px); */
+  transition: transform 250ms ease-in-out;
+  background: linear-gradient(180deg, #37475A 50%, #FEBD69 100%);
+}
+
+#menulist {
+  list-style: none;
+  color: #FEBD69;
+  -webkit-text-stroke-color: #37475A;
+  -webkit-text-stroke-width: 0.5px;
+  margin: 0;
+  padding: 0;
+}
+
+#menulist li {
+  list-style: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 5px solid rgba(255, 255, 255, 10);
+}
+
+.hoverhighlight:hover {
+  background-color: #37475A;
+  color: #FEBD69;
+}
+
+#hamburgerbutton {
+  color: white;
+  float: right;
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 40px;
+  max-height: 100%;
+  background-color: #FEBD69;
+  border-radius: 20px;
+  width: 5rem;
+  text-align: center;
+}
+
+#hamburgerbutton:hover {
+  color: #37475A;
+}
+
+.quizapp {
+  background: aquamarine;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.quizapp h2 {
+  font-weight: 15px;
+  color: #37475;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+}
+
+.quiz {
+  padding: 1px;
+}
+
+.btn {
+  background: grey;
+  color: blue;
+  font-weight: 500;
+  text-align: left;
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: lightcyan;
+  color: grey;
+}
+
+.btn:disabled {
+  cursor: no-drop;
+}
+
+#nextbutton {
+  background: violet;
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+.Correct {
+  background: green;
+}
+
+.Incorrect {
+  background: red;
+}

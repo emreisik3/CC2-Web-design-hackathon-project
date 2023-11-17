@@ -1,0 +1,239 @@
+img.aws {
+  width: 70px;
+  height: 55px;
+  margin-top: 10px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+h1 {
+  text-align: center;
+  color: orange;
+  background-color: #232F3E;
+  display: inline-block;
+  margin-left: 400px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: #f7ebd4;
+  opacity: 1;
+  align-items: center;
+}
+
+iframe {
+  align-items: center;
+}
+
+nav {
+  text-align: center;
+  background-color: #232F3E;
+  color: orange;
+}
+
+h2 {
+  color: #232F3E;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: orange;
+}
+
+h3 {
+  color: #232F3E;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: orange;
+}
+
+p {
+  color: #232F3E;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: orange;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box
+}
+
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  width: 1000px;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #232F3E;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  color: #232F3E;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #232F3E;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.header {
+  background-color: #232F3E;
+  margin: 0;
+  max-width: 100%;
+  width: 100%;
+  position: fixed;
+  max-height: 80px;
+  height: 80px;
+}
+
+
+input[type=button],
+input[type=submit],
+input[type=reset],
+input[type=text],
+input[type=radio],
+button {
+  background-color: #232F3E;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-emphasis-color: white;
+  text-align: center;
+}
+
+div.dropdown {
+  text-align: left;
+}
+
+.dropdown-content {
+  text-align: left;
+}
+
+.hoverhighlight:hover {
+  background-color: #232F3E;
+  color: #232F3E;
+}
+
+#menu {
+  height: 100%;
+  float: right;
+  background-color: #232F3E;
+  color: #232F3E;
+  font-size: 1.5em;
+  position: fixed;
+  width: 0em;
+  right: 0em;
+  transition: transform 250ms ease-in-out;
+  background: linear-gradient(180deg, #f7ebd4 50%, #FEBD69 100%);
+
+}
+
+#menulist {
+  list-style: none;
+  color: #232F3E;
+  -webkit-text-stroke-color: #232F3E;
+  -webkit-text-stroke-width: 0.5px;
+  margin: 0;
+  padding: 0;
+}
+
+#menulist li {
+  list-style: none;
+  color: #232F3E;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 5px solid rgba(255, 255, 255, 10);
+}
+
+#navbar>a>#AWSlogo {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 2%;
+  z-index: -1;
+  border-radius: 25px;
+}
+
+i {
+  color: orange;
+  text-size-adjust: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  cursor: context-menu;
+
+}

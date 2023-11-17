@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Database</title>
+  <script src="mahamad.js"></script>
+  <link rel="stylesheet" href="mahamad.css">
+  <header class="header" id="header">
+    <img class="aws" src="/static/png/AWSLOGO.png" alt="AWSlogo">
+    <a href="javascript:void(0);" class="hamburgerlink" onclick="hamburgerMenu()">
+      <div id="hamburgerbutton">
+        <i class="hamburgerbuttontext">MENU</i>
+      </div>
+    </a>
+    <div id="banner">
+      <h1 class="title">Amazon Web Services - Database</h1>
+      <p class="description">
+      <h3 style="background-color:#ff9900">Welcome to the educational page for the AWS Databases.
+        Please view our informational video in order to learn more. You can test your knowledge with
+        the quizzes found throughout this documentation after you have reviewed the materials.</h3>
+      </p>
+    </div>
+  </header>
+</head>
+
+<body>
+  <div id="menu">
+    <div>
+      <ul id="menulist">
+        <li>
+          <a class="hoverhighlight" href="../index.html">
+            <h3>Home</h3>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <h2>About AWS Relational Database Services (RDS):</h2>
+    <ul id="aboutRDS">
+      <li>
+        Innovate and build new apps with Amazon RDS instead of worrying about self-managing your databases, which can be
+        time consuming, complex, and expensive.
+      </li>
+      <li>
+        Support growing apps with high availability, throughput, and storage scalability. Take advantage of flexible
+        pay-per-use pricing to suit various application usage patterns.
+      </li>
+      <li>
+        Remove inefficient and time-consuming database administrative tasks without needing to provision infrastructure
+        or
+        maintain software.
+      </li>
+      <li>
+        Benefit from over a decade of proven operational expertise, security best practices, and innovation in databases
+        born in the cloud.
+      </li>
+
+    </ul>
+  </div>
+
+  <div style="text-align:left;padding-left:0.5cm;">
+    <br>
+    <iframe width="600" height="400" src="https://www.youtube.com/embed/YVe9amljgaw?si=_HZ1ybJThntPHSDW"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+
+  <div style="padding-left:0.2cm;">
+    <hr>
+    <h3>
+      Here is a mini-quiz to see if you've paid attention to our informational video!
+    </h3>
+    <div class="row">
+      1. Which DB engines is AWS Aurora compatible with?
+
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <button onclick="toggleText(this)" class="btn btn-sm animated-button thar-two">Oracle</a>
+          <x class="wrong">
+            <p class="demo" style="display: none">Wrong</p>
+          </x>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <button onclick="toggleText(this)" class="btn btn-sm animated-button thar-two">PostgreSQL/MySQL</a>
+          <x class="correct">
+            <p class="demo" style="display: none">Correct</p>
+          </x>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <button onclick="toggleText(this)" class="btn btn-sm animated-button thar-two">SQL Server</a>
+          <x class="wrong">
+            <p class="demo" style="display: none">Wrong</p>
+          </x>
+      </div>
+    </div>
+    <br>
+
+    <hr>
+
+    <div class="row">
+      2. What does AWS take care of in terms of RDS?
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <button onclick="toggleText(this)" class="btn btn-sm animated-button thar-two">High Availability</a>
+          <x class="wrong">
+            <p class="demo" style="display: none">Wrong</p>
+          </x>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <button onclick="toggleText(this)" class="btn btn-sm animated-button thar-two">Applying Patches</a>
+          <x class="wrong">
+            <p class="demo" style="display: none">Wrong</p>
+          </x>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <button onclick="toggleText(this)" class="btn btn-sm animated-button thar-two">All of the Above</a>
+          <x class="correct">
+            <p class="demo" style="display: none">Correct</p>
+          </x>
+      </div>
+    </div>
+    <br>
+
+    <hr>
+
+    <div class="row">
+      3. Which storage type is most suitable for an I/O intensive workload?
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <button onclick="toggleText(this)" class="btn btn-sm animated-button thar-two">io1</a>
+          <x class="correct">
+            <p class="demo" style="display: none">Correct</p>
+          </x>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <button onclick="toggleText(this)" class="btn btn-sm animated-button thar-two">gp2</a>
+          <x class="wrong">
+            <p class="demo" style="display: none">Wrong</p>
+          </x>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <button onclick="toggleText(this)" class="btn btn-sm animated-button thar-two">gp3</a>
+          <x class="wrong">
+            <p class="demo" style="display: none">Wrong</p>
+          </x>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <hr>
+
+</body>
+
+</html>
